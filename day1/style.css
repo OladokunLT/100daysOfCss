@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.debug {
+    /* border: red 2px solid; */
+    /* background-color: aliceblue; */
+}
+*{margin:0; padding:0; box-sizing: border-box;}
+.frame {
+    background-color: #fff;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    box-shadow: 4px 8px 16px 0px purple;
+    overflow: hidden;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscale;
+    border-radius: 2px;
+
+    background: #43389F;
+    background: -webkite-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+    background: -moz-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+    background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+    background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43389F', endColorstr='#4ec6ca',GradientType=1 ); 
+}    
+.center {
+    /* border: yellow 2px solid; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.number{
+    /* border: green 2px solid; */
+
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+.one-one{
+    /* border: purple 2px solid; */
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left: -16px;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    border-radius: 3px;
+    transform: rotate(50deg);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2); 
+    
+}
+.one-two {
+    background: white;
+    position: absolute;
+    z-index: 10;
+    height:  100px;
+    width: 24px;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.zero-one,
+.zero-two {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 17px;
+    /* background: green; */
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 24px solid #fff;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.zero-one {
+    z-index: 6px;
+    left: 100px;
+}
+.big {
+    position: relative;
+    z-index: 20;
+    display: block;
+    font-size: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 6px;
+    left: -8px;
+}
+.small {
+    position: relative;
+    z-index: 20;
+    display: block;
+    font-size: 23px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .04em;
+    left: -2px;
+    margin-top: 8px;
+}
